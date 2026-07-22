@@ -6,7 +6,6 @@ import random
 # Load the trained model and vectorizer
 model = joblib.load('specialty_model.pkl')
 vectorizer = joblib.load('tfidf_vectorizer.pkl')
-sample_notes = pd.read_csv('sample_notes.csv')
 
 st.title("Medical Specialty Predictor")
 
